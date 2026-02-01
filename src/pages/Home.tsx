@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         
         <div className="mt-8">
           <h2 className="text-2xl lg:text-3xl font-bold text-white tracking-[0.2em] uppercase">AuraChat</h2>
-          <p className="text-slate-500 mt-2 font-light text-sm lg:text-base">Encrypted. Instant. Beautiful.</p>
+          <p className="text-slate-500 mt-2 font-light text-sm lg:text-base">Made just for testing</p>
         </div>
 
         <div className="mt-12">
