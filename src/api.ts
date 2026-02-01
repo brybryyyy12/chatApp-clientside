@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://chatapp-serverside.up.railway.app/api",
+  baseURL: "https://chatapp-serverside.onrender.com/api",
 });
 
 api.interceptors.request.use(
