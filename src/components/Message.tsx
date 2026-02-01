@@ -4,8 +4,9 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getMessages, sendMessage as apiSendMessage, getConversationDetails } from "../api/chat";
 import io from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:4000";
-const socket = io(SOCKET_URL);
+const SOCKET_URL = "https://chatapp-serverside.onrender.com"; // Render backend URL
+const socket = io(SOCKET_URL, { autoConnect: false });
+
 
 interface MessageType {
   _id: string;
