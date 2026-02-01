@@ -69,7 +69,7 @@ const SettingsView: React.FC = () => {
       </header>
 
       {/* Center Form */}
-      <div className="flex-1 overflow-y-auto p-6 flex justify-center items-start md:items-center">
+      <div className="flex-1 overflow-y-auto p-6 flex justify-center items-center">
         <div className="w-full max-w-md space-y-6">
 
           {/* Avatar */}
